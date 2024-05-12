@@ -1,0 +1,127 @@
+/* Getting Fonts From Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: #c9c9c9;
+}
+
+/* Styling Navigation Bar */
+
+.nav-bar {
+    display: flex;
+    padding: 12px 18px;
+    height: 52px;
+}
+
+/* Styling Navigation Bar Logo */
+
+.nav-bar .navLogo h2 {
+    font-family: Oswald;
+    font-size: 33px;
+    margin: 7px 7px;
+}
+
+/* Styling Navigation Bar Buttons */
+
+.nav-bar .nav-btns {
+    display: flex;
+    width: 38vw;
+    margin: 8px 236px;
+}
+
+.nav-bar .nav-btns li {
+    list-style: none;
+    margin: 24px 18px;
+}
+
+.nav-bar .nav-btns li a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #BE4430;
+    font-weight: 600;
+}
+
+/* Styling Navigation Bar Page Translating Buttons */
+
+.nav-bar .translateBtn {
+    display: flex;
+    margin-top: 19px;
+}
+
+.nav-bar .translateBtn li {
+    list-style: none;
+    margin: 15px 8px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+/* Styling Introduction Section Of My Container */
+
+.intro{
+    font-family: Raleway;
+    display: flex;
+    justify-content: center;
+    height: 87vh;
+}
+
+.intro .intro-text h1{
+    font-size: 51px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.intro h1 span{
+    color: #BE4430;
+}
+
+.intro .intro-text p{
+    font-size: 14px;
+}
+
+.intro .intro-text{
+    margin: 110px 125px;
+    margin-left: 16px;
+    opacity: 0.9;
+    height: 170px;
+}
+
+.intro .intro-text .btn{
+    background-color: #BE4430;
+    font-size: 14px;
+    padding: 12px 16px;
+    width: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.intro .intro-text .btn:hover{
+    background-color: #c9c9c9;
+    border: 2px solid #BE4430;
+    color: #BE4430;
+}
+
+.intro .intro-text .btn a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.intro .intro-text .btn a:hover{
+    color: #BE4430;
+}
+
+.intro img{
+    height: 87vh;
+    opacity: 0.9;
+}

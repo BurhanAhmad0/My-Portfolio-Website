@@ -1,0 +1,131 @@
+/* Getting Fonts From Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: #c9c9c9;
+}
+
+/* Styling Navigation Bar */
+
+.nav-bar {
+    display: flex;
+    padding: 12px 18px;
+    height: 52px;
+}
+
+/* Styling Navigation Bar Logo */
+
+.nav-bar .navLogo h2 {
+    font-family: Oswald;
+    font-size: 33px;
+    margin: 7px 7px;
+}
+
+/* Styling Navigation Bar Buttons */
+
+.nav-bar .nav-btns {
+    display: flex;
+    width: 38vw;
+    margin: 8px 236px;
+}
+
+.nav-bar .nav-btns li {
+    list-style: none;
+    margin: 24px 18px;
+}
+
+.nav-bar .nav-btns li a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #BE4430;
+    font-weight: 600;
+}
+
+/* Styling Navigation Bar Page Translating Buttons */
+
+.nav-bar .translateBtn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-bar .translateBtn li {
+    list-style: none;
+    margin: 15px 8px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+/* Styling Main Body Of The About Page */
+
+.about {
+    text-align: center;
+    font-size: 17px;
+}
+
+.about .heading {
+    margin-bottom: 20px;
+}
+.about .heading h2 {
+    font-family: Raleway;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+.about .heading hr {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin: 8px auto;
+    width: 65%;
+}
+
+/* Styling About Page Banner */
+
+.about .aboutBanner img{
+    width: 45%;
+    margin-top: 17px;
+    border-radius: 15px;
+}
+
+.about .welmText{
+    text-align: start;
+    margin: 40px 25%;
+    padding: 40px 0px;
+    font-size: xx-large;
+    color: #BE4430;
+    font-family: Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about .aboutText{
+    width: 50%;
+    text-align: start;
+    font-family: Raleway;
+    margin: auto;
+    margin-top: 20px;
+    padding: 40px 0px;
+}
+
+.about .aboutText-2{
+    background-color: #c9c9c9;
+    padding: 40px 0px;
+}
+
+
+.about .aboutText h4{
+    margin-bottom: 10px;
+}
+.gdbyText{
+    text-align: start;
+    margin: 40px 25%;
+    font-family: Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

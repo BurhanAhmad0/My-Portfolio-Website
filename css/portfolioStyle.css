@@ -1,0 +1,147 @@
+/* Getting Fonts From Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 125vh;
+    background-color: #c9c9c9;
+}
+
+/* Styling Navigation Bar */
+
+.nav-bar {
+    display: flex;
+    padding: 12px 18px;
+    height: 52px;
+}
+
+/* Styling Navigation Bar Logo */
+
+.nav-bar .navLogo h2 {
+    font-family: Oswald;
+    font-size: 33px;
+    margin: 7px 7px;
+}
+
+/* Styling Navigation Bar Buttons */
+
+.nav-bar .nav-btns {
+    display: flex;
+    width: 38vw;
+    margin: 8px 236px;
+}
+
+.nav-bar .nav-btns li {
+    list-style: none;
+    margin: 24px 18px;
+}
+
+.nav-bar .nav-btns li a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #BE4430;
+    font-weight: 600;
+}
+
+/* Styling Navigation Bar Page Translating Buttons */
+
+.nav-bar .translateBtn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-bar .translateBtn li {
+    list-style: none;
+    margin: 15px 8px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+.projectCards{
+    margin: 52px 262px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 66vw;
+}
+
+.projectCards .card{
+    width: 210px;
+    height: 260px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 13px 18px;
+}
+
+.projectCards .card .card-content{
+    margin: 10px 10px;
+}
+
+.projectCards .card .img img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
+}
+
+.projectCards .card h4{
+    font-size: 20px;
+    font-family: 'Raleway';
+    margin-top: 7px;
+}
+
+.projectCards .card #desc{
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.projectCards .card #techStck-main{
+    font-size: 11px;
+    font-family: system-ui;
+    margin-top: 8px;
+}
+
+.projectCards .card #techStck-main #techStck{
+    font-weight: 500
+}
+
+.projectCards .card .btns{
+    display: flex;
+    margin-top: 8px;
+}
+
+.projectCards .card .btns .link{
+    display: flex;
+}
+
+.projectCards .card .btns .link img{
+    width: 18px;
+}
+
+.projectCards .card .btns .link p{
+    font-size: 11px;
+    font-family: 'Raleway';
+    margin: 2px 6px;
+}
+
+.projectCards .card .btns .github{
+    display: flex;
+    margin-left: 7px;
+}
+
+.projectCards .card .btns .github img{
+    width: 18px;
+}
+
+.projectCards .card .btns .github p{
+    font-size: 11px;
+    font-family: 'Raleway';
+    margin: 2px 6px;
+}

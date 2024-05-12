@@ -1,0 +1,128 @@
+/* Getting Fonts From Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: #c9c9c9;
+}
+
+/* Styling Navigation Bar */
+
+.nav-bar {
+    display: flex;
+    padding: 12px 18px;
+    height: 52px;
+}
+
+/* Styling Navigation Bar Logo */
+
+.nav-bar .navLogo h2 {
+    font-family: Oswald;
+    font-size: 33px;
+    margin: 7px 7px;
+}
+
+/* Styling Navigation Bar Buttons */
+
+.nav-bar .nav-btns {
+    display: flex;
+    width: 38vw;
+    margin: 8px 236px;
+}
+
+.nav-bar .nav-btns li {
+    list-style: none;
+    margin: 24px 18px;
+}
+
+.nav-bar .nav-btns li a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #BE4430;
+    font-weight: 600;
+}
+
+/* Styling Navigation Bar Page Translating Buttons */
+
+.nav-bar .translateBtn {
+    display: flex;
+    margin-top: 19px;
+}
+
+.nav-bar .translateBtn li {
+    list-style: none;
+    margin: 15px 8px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+/* Styling Contact Form Section */
+
+.contactForm {
+    max-width: 400px;
+    margin: 22px 406px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactForm h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Raleway;
+}
+
+.form-control {
+    width: 94%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #BE4430;
+    box-shadow: 0 0 5px #BE4430;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #BE4430;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #BE4430;
+}
