@@ -52,12 +52,12 @@
 
 /* Styling Navigation Bar Page Translating Buttons */
 
-.nav-bar .translateBtn {
+.nav-bar .social-icons {
     display: flex;
-    margin-top: 19px;
+    margin-top: 10px;
 }
 
-.nav-bar .translateBtn li {
+.nav-bar .social-icons li {
     list-style: none;
     margin: 15px 8px;
     font-size: 12px;
