@@ -1,7 +1,7 @@
 /* Getting Fonts From Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
     padding: 0;
@@ -10,7 +10,7 @@
 
 .container {
     height: 100vh;
-    background-color: #c9c9c9;
+    background-color: #F2F2F2;
 }
 
 /* Styling Navigation Bar */
@@ -24,9 +24,9 @@
 /* Styling Navigation Bar Logo */
 
 .nav-bar .navLogo h2 {
-    font-family: Oswald;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 33px;
-    margin: 7px 7px;
+    margin: 25px 7px;
 }
 
 /* Styling Navigation Bar Buttons */
@@ -46,7 +46,7 @@
     text-decoration: none;
     font-family: Raleway;
     font-size: 15px;
-    color: #BE4430;
+    color: #454c78;
     font-weight: 600;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .intro h1 span{
-    color: #BE4430;
+    color: #454c78;
 }
 
 .intro .intro-text p{
@@ -95,7 +95,7 @@
 }
 
 .intro .intro-text .btn{
-    background-color: #BE4430;
+    background-color: #454c78;
     font-size: 14px;
     padding: 12px 16px;
     width: 89px;
@@ -105,9 +105,9 @@
 }
 
 .intro .intro-text .btn:hover{
-    background-color: #c9c9c9;
-    border: 2px solid #BE4430;
-    color: #BE4430;
+    background-color: #F2F2F2;
+    border: 2px solid #454c78;
+    color: #454c78;
 }
 
 .intro .intro-text .btn a{
@@ -118,7 +118,7 @@
 }
 
 .intro .intro-text .btn a:hover{
-    color: #BE4430;
+    color: #454c78;
 }
 
 .intro img{
